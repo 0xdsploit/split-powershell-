@@ -2,7 +2,12 @@
 
 ## How To use 
 
-```
+1. Run Powershell 
+2. Set this Commmand 
+
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
+
+## After this run script 
+
+.\split.ps1 '.\morcoo full public.txt' -p 6 -o part_
 
